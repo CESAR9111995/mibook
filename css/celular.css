@@ -1,0 +1,269 @@
+body{
+	margin: 0;
+	padding-top: 100px;
+	background-color: #FFF;
+	font-family: sans-serif;
+} 
+
+@media screen and (max-width:700px){
+
+header{
+	width: 100%;
+	height: 50px;
+	background-color:royalblue;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+} header h1{
+  color: white;
+  line-height: 30px;
+  font-size: 15px;
+  text-align: center;
+}
+
+ .banner{
+	width: 100%;
+	height: 200px;
+	margin-top:-50px;
+}
+  
+
+  /****** inicio ***/
+
+ .inicio{
+ 	width: 100%;
+ 	height: auto;
+ 	display: flex;
+ 	flex-direction: column;
+ } .inicio .carrera{
+ 	width: 90%;
+ 	margin-left:0px;
+ 	height: auto;
+ } .inicio .carrera h2{
+  font-size: 25px;
+  color: royalblue;
+  text-align: center;
+ } .inicio .carrera p{
+ 	text-align: justify;
+ 	font-size: 15px;
+ 	color: #333;
+ } 
+ .inicio img{
+width: 70%;
+height: 250px;
+display: block;
+margin:0 auto;
+ }
+
+/**** postfacebook**/
+
+.cont-diseño .title{
+	text-align: center;
+	font-size: 30px;
+	color: #333;
+	margin-bottom: 100px;
+} .cont-diseño .tit1{
+	text-align: left;
+	margin-left: 10px;
+	font-size: 25px;
+	color: royalblue;
+} .cont-diseño .tit2{
+	text-align: left;
+	margin-left: 10px;
+	font-size: 25px;
+	color: royalblue;
+} 
+
+ .cont-diseño .diseño{
+	width: 100vw;
+	height: auto;
+	margin:0 auto;
+	margin-bottom: 50px;
+	overflow: auto;
+	display: flex;
+	justify-content: space-between;
+} .cont-diseño .diseño .imagen{
+  min-width: 80%;
+ height: 350px;
+margin-left: 10px;
+} 
+.cont-diseño .diseño::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+  display: none;
+} .cont-diseño .diseño::-webkit-scrollbar-thumb{
+ border-radius: 50px;
+ background-color: royalblue;
+} 
+
+.cont-diseño .diseño2{
+	width: 100vw;
+	height: auto;
+	margin:0 auto;
+	margin-bottom: 50px;
+	overflow: auto;
+	display: flex;
+	justify-content: space-between;
+} .cont-diseño .diseño2 .imagen{
+  min-width: 80%;
+ height: 350px;
+margin-left: 10px;
+} 
+.cont-diseño .diseño2::-webkit-scrollbar{
+  width: 8px;
+  height: 8px;
+  display: none;
+} .cont-diseño .diseño2::-webkit-scrollbar-thumb{
+ border-radius: 50px;
+ background-color: royalblue;
+} 
+
+/****** img**/
+
+.cont-diseño .cont-imagen{
+	width: 100%;
+	height: 100vh;
+	background-color: #20202F;
+	position: fixed;
+visibility: hidden;
+		top: 0;
+		z-index: 10;
+} .cont-diseño .cont-imagen:target{
+	width: 100%;
+	height: 100vh;
+	background-color: #20202F;
+	position: fixed;
+visibility: visible;
+		top: 0;
+		z-index: 10;
+}
+.cont-diseño .cont-imagen .cerrar{
+	margin-left: 85%;
+	margin-top: 20px;
+	position: absolute;
+font-size: 40px;
+color: #2AFF08;
+}
+ .cont-diseño .cont-imagen .imagen{
+ display: flex;
+
+}
+
+.cont-diseño .cont-imagen .imagen img{
+   width: 60%;
+   height: 250px;
+   margin:0 auto;
+   margin-top: 200px;
+   display: block;
+} .cont-diseño .cont-imagen .imagen .flecha1{
+	margin-top: 300px;
+	font-size: 30px;
+	position: absolute;
+	margin-left:10px;
+	color: white;
+} .cont-diseño .cont-imagen .imagen .flecha2{
+		margin-top: 300px;
+	font-size: 30px;
+	margin-left:90%;
+	position: absolute;
+	color: white;
+}
+
+/********************* diseño web *****************/
+
+.title3{
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 30px;
+	color: #333;
+}  .tit3{
+	text-align: left;
+	margin-left: 10px;
+	font-size: 25px;
+	color: royalblue;
+} .diseñoweb{
+	width: 100%;
+	height: auto;
+	display: flex;
+	overflow: auto;
+	justify-content: space-between;
+	margin-bottom: 100px;
+} .diseñoweb .web{
+min-width: 80%;
+height: auto;
+margin-left:10px;
+} .diseñoweb .web img{
+  width: 100%;
+  height: 350px;
+} .diseñoweb .web a{
+	width: 80%;
+	height: 50px;
+	margin:0 auto;
+	font-size: 30px;
+	border-radius: 10px;
+background-color: royalblue;
+	color: white;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+} .diseñoweb::-webkit-scrollbar{
+width: 8px;
+height: 8px;
+display: none;
+} .diseñoweb::-webkit-scrollbar-thumb{
+	border-radius:50px;
+ background-color:royalblue;
+}
+
+
+/***** mapa ***/
+.title4{
+	text-align: center;
+	margin-bottom: 100px;
+	font-size: 30px;
+	color: #333;
+} 
+.mapa{
+	width: 100%;
+	height: 350px;
+	margin-bottom: 20px;
+} 
+
+/*** objetivo***/
+
+.objetivo{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+} .tit-obj{
+ margin-left:80px;
+ color: royalblue;
+}
+
+.objetivo p{
+	width: 80%;
+	margin:0 auto;
+	text-align: justify;
+	font-size: 20px;
+}
+
+
+
+/*****contacto****/
+
+.contacto{
+	width: 90%;
+	background-color: #20202F;
+	padding:10px;
+	margin:0 auto;
+	color: white;
+	height: auto;
+	font-family: sans-serif;
+} .tit-cont{
+	font-size: 25px;
+	color: royalblue;
+	margin-left:10px;
+}
+
+}
